@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "pnpm build && pnpm preview --port 5174 && vite"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
